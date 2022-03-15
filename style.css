@@ -1,0 +1,35 @@
+body {
+    font-size: 16px;
+    
+}
+input,select,.result{
+  font-size:1em;
+  display:block;
+  width: 90vw;
+  height: 1.5em;
+  margin: .5em auto;
+}
+span{
+  color: red;
+  display: block;
+  display: none;
+}
+.btn{
+  display: flex;
+  width;100vw;
+ margin-top:5px;
+ justify-content: center;
+}
+.btn button{
+  width: 30vw;
+  height: 2em;
+  background: #000;
+  border-radius: 5px;
+  border: 0px;
+  margin: 10px;
+  color: white;
+  font-size: 1em;
+}
+.btn button:last-child{
+  background: #FF0000;
+}
