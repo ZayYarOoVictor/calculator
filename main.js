@@ -9,7 +9,7 @@ var operator=document.getElementById('operator').value;
 var status1=true;
 var status2=true;
 var status3=true;
-
+answer.innerHTML='';
 // ok or not  
 if(fNum==''||fNum==null){
   document.getElementById("fError").style.display = "block";
